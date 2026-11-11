@@ -24,7 +24,7 @@ print('"Lord" at index:', movie.index("Lord"))
 
 # print where in the text is the word "dragon"
 
-if ("Dragon" in movie):
+if "dragon" in movie:
     print('"dragon" at index:', movie.index("dragon"))
 else:
     print('"Dragon" is not in the text')

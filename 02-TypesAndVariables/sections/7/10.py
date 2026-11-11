@@ -12,7 +12,7 @@ computer = random.randint(1, 6)
 # YOUR TURN
 you = int(input("Enter a number: "))
 
-if (computer == you):
+if computer == you:
     print(True)
     print(f'You won')
 else:

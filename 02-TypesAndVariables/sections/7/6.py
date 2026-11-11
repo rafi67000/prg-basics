@@ -2,4 +2,4 @@
 
 speed = int(input("Enter vehicle speed: "))
 
-print(speed <= 140 and speed >= 40)
+print(140 >= speed >= 40)

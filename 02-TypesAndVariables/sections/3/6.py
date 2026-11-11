@@ -1,4 +1,4 @@
-average_eye_level_height = 1.55
+average_eye_level_height = 1.6
 
 def distance2horizon(height):
     return 3.57 * height // 2
