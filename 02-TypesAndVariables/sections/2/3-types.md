@@ -1,4 +1,5 @@
 # Przewidywane 
+```
 50 Int
 149.17 Float 
 4 * 7 Int
@@ -6,6 +7,7 @@
 "Krakow University of Economics" String
 True Boolean
 2 > 5 Boolean
+```
 
 # Wynik
 `cat 3-input | xargs -d '\n' -I {} python3 -c "print('''{}:''', type({}).__name__)"`
