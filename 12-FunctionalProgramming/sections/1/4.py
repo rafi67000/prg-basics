@@ -1,0 +1,7 @@
+#
+# Zamiana prędkości z m/s na km/h z użyciem funkcji lambda
+#
+ms_to_kmh = lambda ms: ms * 3.6
+
+print(f"10 m/s = {ms_to_kmh(10)} km/h")
+print(f"35 m/s = {ms_to_kmh(35)} km/h")
